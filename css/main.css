@@ -26,3 +26,94 @@ header {
   color: #fff;
   overflow: hidden;
 }
+
+header h1 {
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  padding: .5em;
+  font-size: 2rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  font-size: 1.125rem;
+}
+
+li {
+  list-style-type: none;
+  padding: .7em 0 .7em 1em;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6c8fe0;
+  white-space: nowrap;
+}
+
+nav a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  li {
+    float: left;
+    width: 50%;
+  }
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  li {
+    width: 25%;
+  }
+
+  html {
+    font-size: 120%;
+    line-height: 1.4;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  h1 {
+    float: left;
+  }
+
+  nav {
+    float: right;
+    width: 600px;
+  }
+
+  li {
+    padding: 1.5rem 0 1.5rem 0;
+    text-align: center;
+  }
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  nav {
+    width: 600px;
+  }
+
+}
